@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated": "2026-07-12 18:49",
+  "generated": "2026-07-12 18:57",
   "measures": {
     "total_code": "1813404",
     "matched_code": "736",
@@ -3013,7 +3013,7 @@
   "metadata": {
     "project": "Parasite Eve (USA) SLUS-006.62",
     "sha1": "452fb033f2eaa4b18aa20a5bca60b8125af3a37b",
-    "config": "/home/blizz/Projects/Parasite-Eve-Decompilation/configs/USA/disc1.yaml",
+    "config": "/var/home/blizz/Projects/Parasite-Eve-Decompilation/configs/USA/disc1.yaml",
     "generator": "tools/progress/generate_progress.py",
     "fuzzy_source": "exact_leaf_bytes_v1",
     "note": "fuzzy_match_percent mirrors matched_code_percent until objdiff report is wired in."
