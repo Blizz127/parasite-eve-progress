@@ -1,27 +1,27 @@
 {
   "version": 2,
-  "generated": "2026-07-13 00:02",
+  "generated": "2026-07-13 00:28",
   "measures": {
     "total_code": "1813404",
-    "matched_code": "2448",
-    "matched_code_percent": 0.134995,
+    "matched_code": "2472",
+    "matched_code_percent": 0.136318,
     "total_data": "0",
-    "total_functions": 5034,
-    "matched_functions": 155,
-    "matched_functions_percent": 3.079062,
-    "fuzzy_match_percent": 0.134995,
-    "total_units": 272
+    "total_functions": 5033,
+    "matched_functions": 156,
+    "matched_functions_percent": 3.099543,
+    "fuzzy_match_percent": 0.136318,
+    "total_units": 274
   },
   "categories": [
     {
       "id": "c_leaves",
       "name": "Matched C",
       "measures": {
-        "total_code": "2448",
-        "matched_code": "2448",
+        "total_code": "2472",
+        "matched_code": "2472",
         "matched_code_percent": 100.0,
-        "total_functions": 155,
-        "matched_functions": 155,
+        "total_functions": 156,
+        "matched_functions": 156,
         "matched_functions_percent": 100.0
       }
     },
@@ -29,10 +29,10 @@
       "id": "remaining_asm",
       "name": "Remaining asm",
       "measures": {
-        "total_code": "1810956",
+        "total_code": "1810932",
         "matched_code": "0",
         "matched_code_percent": 0.0,
-        "total_functions": 4879,
+        "total_functions": 4877,
         "matched_functions": 0,
         "matched_functions_percent": 0.0
       }
@@ -1647,6 +1647,39 @@
         {
           "name": "func_80052EB0",
           "size": "16",
+          "metadata": {}
+        }
+      ],
+      "metadata": {
+        "progress_categories": [
+          "c_leaves"
+        ]
+      }
+    },
+    {
+      "name": "func_80052F0C",
+      "measures": {
+        "total_code": "24",
+        "matched_code": "24",
+        "matched_code_percent": 100.0,
+        "total_functions": 1,
+        "matched_functions": 1,
+        "matched_functions_percent": 100.0,
+        "total_units": 1,
+        "matched_data_percent": 100.0,
+        "complete_data_percent": 100.0
+      },
+      "sections": [
+        {
+          "name": ".text",
+          "size": "24",
+          "metadata": {}
+        }
+      ],
+      "functions": [
+        {
+          "name": "func_80052F0C",
+          "size": "24",
           "metadata": {}
         }
       ],
@@ -6210,10 +6243,10 @@
     {
       "name": "asm/436C0",
       "measures": {
-        "total_code": "5064",
+        "total_code": "76",
         "matched_code": "0",
         "matched_code_percent": 0.0,
-        "total_functions": 52,
+        "total_functions": 2,
         "matched_functions": 0,
         "matched_functions_percent": 0.0,
         "total_units": 1,
@@ -6223,7 +6256,34 @@
       "sections": [
         {
           "name": ".text",
-          "size": "5064",
+          "size": "76",
+          "metadata": {}
+        }
+      ],
+      "functions": [],
+      "metadata": {
+        "progress_categories": [
+          "remaining_asm"
+        ]
+      }
+    },
+    {
+      "name": "asm/43724",
+      "measures": {
+        "total_code": "4964",
+        "matched_code": "0",
+        "matched_code_percent": 0.0,
+        "total_functions": 48,
+        "matched_functions": 0,
+        "matched_functions_percent": 0.0,
+        "total_units": 1,
+        "matched_data_percent": 0.0,
+        "complete_data_percent": 0.0
+      },
+      "sections": [
+        {
+          "name": ".text",
+          "size": "4964",
           "metadata": {}
         }
       ],
